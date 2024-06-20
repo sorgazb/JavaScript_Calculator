@@ -6,77 +6,83 @@
     <title>JavaScript Calculator</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/estilos.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     <script src='js/app.js'></script>
 </head>
 <body>
     <h1>JavaScript Calculator</h1>
     <div>
-        <table>
+        <table id="calculadora">
             <tr>
                 <td colspan="5">
-                    <input type="text" id="valores" value="0" readonly/>
+                    <input class="pantalla" type="text" id="valores" value="0" readonly/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="button" id="7" value="7" onclick="introducirNumero('7')"/>
+                    <input class="numeros" type="button" id="7" value="7" onclick="introducirNumero('7')"/>
                 </td>
                 <td>
-                    <input type="button" id="8" value="8" onclick="introducirNumero('8')"/>
+                    <input class="numeros" type="button" id="8" value="8" onclick="introducirNumero('8')"/>
                 </td>
                 <td>
-                    <input type="button" id="9" value="9" onclick="introducirNumero('9')"/>
+                    <input class="numeros" type="button" id="9" value="9" onclick="introducirNumero('9')"/>
                 </td>
                 <td colspan="2">
-                    <input type="button" id="potencia" value="Exp" onclick="realizarOperacion('^')"/>
+                    <input class="operaciones" type="button" id="potencia" value="Exp" onclick="realizarOperacion('^')"/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="button" id="4" value="4" onclick="introducirNumero('4')"/>
+                    <input class="numeros" type="button" id="4" value="4" onclick="introducirNumero('4')"/>
                 </td>
                 <td>
-                    <input type="button" id="5" value="5" onclick="introducirNumero('5')"/>
+                    <input class="numeros" type="button" id="5" value="5" onclick="introducirNumero('5')"/>
                 </td>
                 <td>
-                    <input type="button" id="6" value="6" onclick="introducirNumero('6')"/>
+                    <input class="numeros" type="button" id="6" value="6" onclick="introducirNumero('6')"/>
                 </td>
                 <td>
-                    <input type="button" id="producto" value="x" onclick="realizarOperacion('x')"/>
+                    <input class="operaciones" type="button" id="producto" value="x" onclick="realizarOperacion('x')"/>
                 </td>
                 <td>
-                    <input type="button" id="division" value="/" onclick="realizarOperacion('/')"/>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="button" id="1" value="1" onclick="introducirNumero('1')"/>
-                </td>
-                <td>
-                    <input type="button" id="2" value="2" onclick="introducirNumero('2')"/>
-                </td>
-                <td>
-                    <input type="button" id="3" value="3" onclick="introducirNumero('3')"/>
-                </td>
-                <td>
-                    <input type="button" id="suma" value="+" onclick="realizarOperacion('+')"/>
-                </td>
-                <td>
-                    <input type="button" id="resta" value="-" onclick="realizarOperacion('-')"/>
+                    <input class="operaciones" type="button" id="division" value="/" onclick="realizarOperacion('/')"/>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="button" id="0" value="0" onclick="introducirNumero('0')"/>
+                    <input class="numeros" type="button" id="1" value="1" onclick="introducirNumero('1')"/>
                 </td>
                 <td>
-                    <input type="button" id="," value="." onclick="introducirComa()"/>
+                    <input class="numeros" type="button" id="2" value="2" onclick="introducirNumero('2')"/>
                 </td>
                 <td>
-                    <input type="button" id="ac" value="AC" onclick="resetearPantalla()"/>
+                    <input class="numeros" type="button" id="3" value="3" onclick="introducirNumero('3')"/>
+                </td>
+                <td>
+                    <input class="operaciones" type="button" id="suma" value="+" onclick="realizarOperacion('+')"/>
+                </td>
+                <td>
+                    <input class="operaciones" type="button" id="resta" value="-" onclick="realizarOperacion('-')"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input class="numeros" type="button" id="0" value="0" onclick="introducirNumero('0')"/>
+                </td>
+                <td>
+                    <input class="operaciones" type="button" id="," value="." onclick="introducirComa()"/>
+                </td>
+                <td>
+                    <input class="operaciones" type="button" id="ac" value="AC" onclick="resetearPantalla()"/>
                 </td>
                 <td colspan="3">
-                    <input type="button" id="igual" value="    =    " onclick="resolverOperacion()"/>
+                    <input class="operaciones" type="button" id="igual" value="    =    " onclick="resolverOperacion()"/>
                 </td>
             </tr>
         </table>
