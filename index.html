@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>JavaScript Calculator</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/estilos.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/prueba.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
@@ -19,11 +19,11 @@
     <div>
         <table id="calculadora">
             <tr>
-                <td colspan="5">
+                <td colspan="5" class="contenedorPantalla">
                     <input class="pantalla" type="text" id="valores" value="0" readonly/>
                 </td>
             </tr>
-            <tr>
+            <tr id="teclado">
                 <td>
                     <input class="numeros" type="button" id="7" value="7" onclick="introducirNumero('7')"/>
                 </td>
@@ -37,7 +37,7 @@
                     <input class="operaciones" type="button" id="potencia" value="Exp" onclick="realizarOperacion('^')"/>
                 </td>
             </tr>
-            <tr>
+            <tr id="teclado">
                 <td>
                     <input class="numeros" type="button" id="4" value="4" onclick="introducirNumero('4')"/>
                 </td>
@@ -54,7 +54,7 @@
                     <input class="operaciones" type="button" id="division" value="/" onclick="realizarOperacion('/')"/>
                 </td>
             </tr>
-            <tr>
+            <tr id="teclado">
                 <td>
                     <input class="numeros" type="button" id="1" value="1" onclick="introducirNumero('1')"/>
                 </td>
@@ -71,7 +71,7 @@
                     <input class="operaciones" type="button" id="resta" value="-" onclick="realizarOperacion('-')"/>
                 </td>
             </tr>
-            <tr>
+            <tr id="teclado">
                 <td>
                     <input class="numeros" type="button" id="0" value="0" onclick="introducirNumero('0')"/>
                 </td>
