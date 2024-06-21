@@ -9,25 +9,21 @@ div{
 #calculadora{
     margin: auto;
     border: 3px solid black;
-    display: flex;
     border-radius: 10px;
     background-color: #7f8291;
 }
 
 #calculadora tr{
-    display: flex;
     padding: 5px;
 }
 
-#teclado  td{
+#teclado td{
     margin: auto;
     padding: 5px;
 }
 
 .pantalla{
     text-align: right;
-}
-.pantalla{
     border: 1px solid black;
     border-radius: 10px;
     background-color: rgb(217, 233, 151,0.3);
@@ -35,8 +31,6 @@ div{
     font-weight: 400;
     font-style: normal;
 }
-
-
 
 .numeros{
    background-color: #06C1FB;
@@ -67,7 +61,6 @@ div{
     border: 3px solid #06C1FB;
     border-radius: 10px;
     font-size: 20px;
-    width: 70px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: normal;

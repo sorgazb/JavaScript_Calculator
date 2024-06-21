@@ -65,7 +65,7 @@ function resolverOperacion(){
             resultado=Math.pow(operando1,operando2);
             break;
     }
-    operando1="Hello World!";
+    operando1=resultado;
     actualizarPantalla();
     operando2=parseFloat(operando1);
     operando1=0;
