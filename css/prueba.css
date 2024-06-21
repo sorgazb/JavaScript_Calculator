@@ -1,12 +1,18 @@
-div{
+.container{
     margin: auto;
-    border: 1px solid black;
     height: 500px;
-    width: 400px;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    margin: auto;
 }
 
 #calculadora{
+    padding: 10px;
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
@@ -29,7 +35,12 @@ div{
     background-color: rgb(217, 233, 151,0.3);
     font-family: "Silkscreen", sans-serif;
     font-weight: 400;
+    font-size: 30px;
+    max-width: 250px;
     font-style: normal;
+    margin-bottom: 5px;
+    height: 40px;
+    padding-inline: 8px;
 }
 
 .numeros{
@@ -75,4 +86,10 @@ div{
     border: 3px solid #18467D;
     transition: all 300ms;
     box-shadow: inset 0px 4px 4px #18467D;;
+}
+
+@media screen and (max-width: 420px) {
+    #calculadora{
+        transform: scale(0.8);
+    }
 }
