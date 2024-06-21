@@ -55,7 +55,7 @@ function resolverOperacion(){
         case '-':
             resultado=(operando1-operando2);
             break;
-        case '*':
+        case 'x':
             resultado=(operando1*operando2);
             break;
         case '/':
