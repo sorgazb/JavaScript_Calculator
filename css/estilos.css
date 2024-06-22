@@ -1,49 +1,57 @@
+html{
+    background-color: #A0B4C8;
+}
+.container{
+    margin: auto;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    margin: auto;
+    letter-spacing: 5px;
+    color: #24395D;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+}
 
 #calculadora{
-    border: 6px solid black;
+    padding: 10px;
+    margin: auto;
+    border: 3px solid black;
     border-radius: 10px;
     background-color: #7f8291;
-    display: flex;
-    position: relative;
-    align-items: center;
+    box-shadow: 10px 10px 10px black;
+}
+
+#calculadora tr{
+    padding: 5px;
+}
+
+#teclado td{
+    margin: auto;
+    padding: 5px;
 }
 
 .pantalla{
     text-align: right;
-}
-/* .pantalla{
-    border: 3px solid black;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: rgb(217, 233, 151,0.3);
     font-family: "Silkscreen", sans-serif;
     font-weight: 400;
-    font-size: 50px;
+    font-size: 30px;
+    max-width: 250px;
     font-style: normal;
-    height: 100%;
-    width: 100%;
-} */
-
-#calculadora tr{
-    display: block;
-}
-
-#calculadora td{
-    border: 1px solid black;
-}
-
-tr{
-
-}
-
-#calculador tr{
-    margin-top: 300px;
+    margin-bottom: 5px;
+    height: 40px;
+    padding-inline: 8px;
 }
 
 .numeros{
-
-}
-
-/* .numeros{
    background-color: #06C1FB;
    color: #18467D;
    border: 3px solid #18467D;
@@ -55,7 +63,7 @@ tr{
    font-weight: 700;
    font-style: normal;
    cursor: pointer;
-} */
+}
 
 .numeros:hover{
     background-color: #18467D;
@@ -66,20 +74,19 @@ tr{
     text-shadow: 0px 4px 4px black;
 }
 
-/* .operaciones{
+.operaciones{
     background-color: #18467D;
     color: #06C1FB;
     border: 3px solid #06C1FB;
     border-radius: 10px;
     font-size: 20px;
-    width: 70px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: normal;
     width: 100%;
     height: 100%;
     cursor: pointer;
-} */
+}
 
 .operaciones:hover{
     background-color: #06C1FB;
@@ -87,4 +94,10 @@ tr{
     border: 3px solid #18467D;
     transition: all 300ms;
     box-shadow: inset 0px 4px 4px #18467D;;
+}
+
+@media screen and (max-width: 420px) {
+    #calculadora{
+        transform: scale(0.8);
+    }
 }
