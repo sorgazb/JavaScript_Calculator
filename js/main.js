@@ -57,11 +57,13 @@ function introducirComa() {
 }
 
 function realizarOperacion(valor) {
-  if (operando1 == null) {
-    operando1 = 0;
+  if(operador==null){
+    if (operando1 == null) {
+      operando1 = 0;
+    }
+    operador = valor;
+    operacion += operador;
   }
-  operador = valor;
-  operacion += operador;
   actualizarPantalla();
 }
 
