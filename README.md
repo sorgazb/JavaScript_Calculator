@@ -1,8 +1,14 @@
 # JavaScript Calculator
 
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6-f7df1e?style=for-the-badge&logo=javascript)&nbsp;![HTML5](https://img.shields.io/badge/HTML5-Semántico-e34f26?style=for-the-badge&logo=html5)&nbsp;![CSS3](https://img.shields.io/badge/CSS3-Estilos-1572b6?style=for-the-badge&logo=css3)&nbsp;![Proyecto Propio](https://img.shields.io/badge/Proyecto-Propio-43a047?style=for-the-badge)
+<p align="center">
+  <img src="https://github.com/sorgazb/JavaScript_Calculator/assets/150727714/d94ae320-08f1-4100-8e74-e0444569dc82" alt="JavaScript Calculator Screenshot" />
+</p>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-f7df1e?style=for-the-badge&logo=javascript)&nbsp;![HTML5](https://img.shields.io/badge/HTML5-Semántico-e34f26?style=for-the-badge&logo=html5)&nbsp;![CSS3](https://img.shields.io/badge/CSS3-Estilos-1572b6?style=for-the-badge&logo=css3)&nbsp;![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Live-181717?style=for-the-badge&logo=github)&nbsp;![Proyecto Propio](https://img.shields.io/badge/Proyecto-Propio-43a047?style=for-the-badge)
 
 > **JavaScript Calculator** es una calculadora web funcional desarrollada desde cero con HTML, CSS y JavaScript vanilla. Soporta operaciones aritméticas básicas, potenciación y números decimales, con una interfaz limpia e intuitiva.
+
+🔗 **[Prueba la Calculadora aquí!](https://sorgazb.github.io/JavaScript_Calculator/)**
 
 ---
 
